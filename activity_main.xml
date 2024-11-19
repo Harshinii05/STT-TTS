@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_image"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input Text Field with Stylish Hint -->
+
+    <!-- Language Selection Dropdown with Rounded Corners -->
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:hint="Here Your Text Appear"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_spinner"
+        android:backgroundTint="#A0251D"
+        android:entries="@array/languages"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <!-- Speak Button with Modern Design -->
+    <Button
+        android:id="@+id/btnSpeak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#A01919"
+        android:padding="16dp"
+        android:text="START TO SPEAK"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <!-- Convert Text-to-Speech Button with Modern Design -->
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#971D1D"
+        android:padding="16dp"
+        android:text="TEXT to Speech"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <!-- Signature with Beautiful Styling -->
+    <TextView
+        android:id="@+id/signature"
+        android:layout_width="wrap_content"
+        android:layout_height="205dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Harshini J P"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
